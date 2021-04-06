@@ -18,7 +18,7 @@ file_a = open(".\India 1.txt" , encoding="utf8")
 file_b = open(".\India 2.txt" , encoding="utf8")
 
 #Creating the function the read the database and print the result.
-for line in file_a and file_b: #enter your database file here.
+for line in file_a or file_b: #enter your database file here.
     if id in line:
         print("Your Data Has Been Compromised")
         print("*************************************************************")
